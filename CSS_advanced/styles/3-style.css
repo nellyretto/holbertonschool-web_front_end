@@ -22,26 +22,38 @@ visually-hidden{
     color: #D73953;
 }
 
-:root{
-
-    .color-primary{
-        color: #d73953
-    }
-    .color-black{
-        color: #090909
-    }
-    .color-white{
-        color: #ffffff;
-    }
-    .color-light-grey{
-        color: #f3f3f3
-        ;
-    }
-    .color-dark-grey{
-        color: #353535;
-    }
-    .text-color{
-        color: color-black
-    }
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
 }
- 
+
+.section-tagline {
+    color: var(--color-primary);
+}
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.color-light-grey {
+    color: var(--color-light-grey);
+}
+
+.color-dark-grey {
+    color: var(--color-dark-grey);
+}
+
+.text-color {
+    color: var(--color-black);
+}
