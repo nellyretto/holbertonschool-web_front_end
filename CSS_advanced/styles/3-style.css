@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    color: #161616;
+}
+
+a{
+    color: #161616;
+}
+
+visually-hidden{
+    display: none;
+}
+
+.card-category{
+    color: #D73953;
+}
+
+.section-tagline{
+    color: #D73953;
+}
+
+:root{
+
+    .color-primary{
+        color: #d73953
+    }
+    .color-black{
+        color: #090909
+    }
+    .color-white{
+        color: #ffffff;
+    }
+    .color-light-grey{
+        color: #f3f3f3
+        ;
+    }
+    .color-dark-grey{
+        color: #353535;
+    }
+    .text-color{
+        color: color-black
+    }
+}
+ 
