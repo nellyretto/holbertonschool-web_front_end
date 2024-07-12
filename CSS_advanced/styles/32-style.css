@@ -65,7 +65,7 @@ a:active{
     background: var(--button-hover-background);
     --button-color: var(--color-white);
     transition-duration: var(--transition-duration);
-    transition-property: var(--background-color);
+    transition-property: background-color, color;
 }
 
 
