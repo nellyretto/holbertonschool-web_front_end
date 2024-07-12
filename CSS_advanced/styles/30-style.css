@@ -322,7 +322,7 @@ margin-bottom: 5rem;
     z-index: 1;
 }
 
-.car-work:hover .card-inner{
+.card-work:hover .card-inner{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -332,14 +332,14 @@ margin-bottom: 5rem;
     opacity: 0;
     height: 100%;
     position: relative;
-    
+
 }
 
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
-    --color-light-grey: #f3f3f3;
+    --color-light-grey: #776363;
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
     --font-family-base: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
