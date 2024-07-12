@@ -197,7 +197,7 @@ ul.row{
     color: var(--text-color);
 }
 
-.social-link svg *{
+.social-link {
     display: block;
     fill: var(--text-color);
 
