@@ -210,7 +210,7 @@ ul.row{
 }
 
 
-.a .card-services{
+.card-services a{
     display: block;
     padding: 2x;
     background-color: var(--color-light-grey);
