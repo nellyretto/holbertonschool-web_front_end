@@ -309,8 +309,9 @@ margin-bottom: 5rem;
 .card-work .card-image img{
     height: 30rem;
     width: 100%;
-    --object-fit: cover;
-    left
+    object-fit: cover;
+    vertical-align: bottom;
+
 }
 
 
