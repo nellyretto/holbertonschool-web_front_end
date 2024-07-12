@@ -40,8 +40,11 @@ a:active{
 }
 
 .header-logo{
-    display: var(--header-logo-link-display);
     position: var(--header-logo-position);
+}
+
+.header-logo a{
+    display: var(--header-logo-link-display);
     vertical-align: var(--header-logo-link-top);
     horizontal-align: var(--header-logo-link-left);
 }
