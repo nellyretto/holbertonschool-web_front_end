@@ -335,6 +335,13 @@ margin-bottom: 5rem;
 
 }
 
+.card-work .card-title a{
+    display: block;
+    text-decoration: none;
+    padding-top: 45%;
+
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
