@@ -64,7 +64,8 @@ a:active{
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
     --button-color: var(--color-white);
-    
+    transition-duration: var(--transition-duration);
+    transition-property: var(--background-color);
 }
 
 
@@ -332,6 +333,7 @@ margin-bottom: 5rem;
 
 .card-work:hover .card-image{
     transform: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer{
@@ -344,6 +346,7 @@ margin-bottom: 5rem;
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner{
