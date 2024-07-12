@@ -342,6 +342,19 @@ margin-bottom: 5rem;
 
 }
 
+.card-work .card-title a::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: "";
+}
+
+.card-work:hover .card-inner{
+    opacity: 1;
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
