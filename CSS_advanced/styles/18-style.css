@@ -43,18 +43,18 @@ h1, h2, h3, h4, h5, h6{
     font-weight: var(--font-weight-bold);
 }
 
-navbar-menu{
+.navbar-menu{
     float: right;
 }
 
-nav{
+.nav{
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
-nav-item{
+.section-body{
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -63,12 +63,12 @@ nav-item{
     margin: var(--nav-item-margin);
 }
 
-nav-link{
+.nav-link{
     display: block;
     padding: 0.5;
 }
 
-nav-link:hover{
+.nav-link:hover{
     color: var(--nav-item-link-hover);
 }
 
