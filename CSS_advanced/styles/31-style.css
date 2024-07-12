@@ -306,7 +306,7 @@ margin-bottom: 5rem;
 }
 
 .card-testimonial .card-quote::before{
-    content: \210c;
+    content:' \210c';
     position: absolute;
     top: -4.5rem;
     left: -1rem;
