@@ -36,6 +36,7 @@ a:active{
 
 .header{
     position: var(--header-logo-link-position);
+    padding: var(--header-padding);
 }
 
 a:header-logo{
