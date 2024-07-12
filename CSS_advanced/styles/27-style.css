@@ -183,7 +183,7 @@ ul.row{
 }
 
 .section-hero{
-    background-size: cover auto;
+    background-size: 200px 100px;
     width: 90rem;
 }
 
