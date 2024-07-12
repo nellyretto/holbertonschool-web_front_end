@@ -39,7 +39,7 @@ a:active{
     padding: var(--header-padding);
 }
 
-a:header-logo{
+.header-logo{
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-top);
     vertical-align: var(--header-logo-link-top);
