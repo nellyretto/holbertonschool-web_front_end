@@ -63,8 +63,10 @@ ul.row{
 }
 
 .footer-copyright{
+    margin: 0;
     font-size: var(--font-size-small);
-    color: va(--text-color)
+    color: var(--text-color);
+    text-align: right;
 }
 
 .navbar-menu{
